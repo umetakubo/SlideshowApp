@@ -12,6 +12,10 @@ class ZoomViewController: UIViewController {
     
     var image = UIImage()
     
+    @IBAction func backButton(_ sender: Any) {
+    //@IBAction func backButton(_ sender: Any) {
+        navigationController?.popViewController(animated: true)
+    }
     
     @IBOutlet weak var imageView2: UIImageView!
     

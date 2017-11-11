@@ -12,6 +12,7 @@
 		BA20E9CE1FA42EDF00150C6D /* IMG_0508.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA20E9CB1FA42EDF00150C6D /* IMG_0508.jpg */; };
 		BA20E9CF1FA42EDF00150C6D /* IMG_0517.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA20E9CC1FA42EDF00150C6D /* IMG_0517.jpg */; };
 		BA8260891FA48572009A1526 /* ZoomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA8260881FA48572009A1526 /* ZoomViewController.swift */; };
+		BA85C7D01FB6FB2300982462 /* SlideshowApp2.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA85C7CF1FB6FB2300982462 /* SlideshowApp2.storyboard */; };
 		BAF1EC1B1F9CA6DA00B38E1E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAF1EC1A1F9CA6DA00B38E1E /* AppDelegate.swift */; };
 		BAF1EC1D1F9CA6DA00B38E1E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAF1EC1C1F9CA6DA00B38E1E /* ViewController.swift */; };
 		BAF1EC201F9CA6DA00B38E1E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAF1EC1E1F9CA6DA00B38E1E /* Main.storyboard */; };
@@ -25,6 +26,7 @@
 		BA20E9CB1FA42EDF00150C6D /* IMG_0508.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0508.jpg; sourceTree = "<group>"; };
 		BA20E9CC1FA42EDF00150C6D /* IMG_0517.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0517.jpg; sourceTree = "<group>"; };
 		BA8260881FA48572009A1526 /* ZoomViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZoomViewController.swift; sourceTree = "<group>"; };
+		BA85C7CF1FB6FB2300982462 /* SlideshowApp2.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = SlideshowApp2.storyboard; sourceTree = "<group>"; };
 		BAF1EC171F9CA6DA00B38E1E /* SlideshowApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SlideshowApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAF1EC1A1F9CA6DA00B38E1E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BAF1EC1C1F9CA6DA00B38E1E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -58,6 +60,7 @@
 		BAF1EC0E1F9CA6DA00B38E1E = {
 			isa = PBXGroup;
 			children = (
+				BA85C7CF1FB6FB2300982462 /* SlideshowApp2.storyboard */,
 				BAF1EC191F9CA6DA00B38E1E /* SlideshowApp */,
 				BAF1EC181F9CA6DA00B38E1E /* Products */,
 			);
@@ -150,6 +153,7 @@
 				BA20E9CE1FA42EDF00150C6D /* IMG_0508.jpg in Resources */,
 				BAF1EC251F9CA6DA00B38E1E /* LaunchScreen.storyboard in Resources */,
 				BAF1EC221F9CA6DA00B38E1E /* Assets.xcassets in Resources */,
+				BA85C7D01FB6FB2300982462 /* SlideshowApp2.storyboard in Resources */,
 				BA20E9CF1FA42EDF00150C6D /* IMG_0517.jpg in Resources */,
 				BAF1EC201F9CA6DA00B38E1E /* Main.storyboard in Resources */,
 			);

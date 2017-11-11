@@ -106,20 +106,27 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="wTg-Va-FRI">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="wTg-Va-FRI">
                                 <rect key="frame" x="20" y="86" width="374" height="451"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KPB-Iv-znx">
-                                <rect key="frame" x="192" y="603" width="31" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xg3-Mn-mSG">
+                                <rect key="frame" x="191.66666666666666" y="587" width="31" height="30"/>
                                 <state key="normal" title="戻る"/>
                                 <connections>
-                                    <segue destination="tOF-fX-6iF" kind="unwind" unwindAction="unwind:" id="5ez-KI-76g"/>
+                                    <segue destination="tOF-fX-6iF" kind="unwind" unwindAction="unwind:" id="QR3-0L-Gy8"/>
                                 </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="wTg-Va-FRI" firstAttribute="centerX" secondItem="idD-H8-9vj" secondAttribute="centerX" id="4Vk-4R-So5"/>
+                            <constraint firstItem="wTg-Va-FRI" firstAttribute="top" secondItem="nsa-ue-eCL" secondAttribute="bottom" constant="66" id="9jf-Gu-jAB"/>
+                            <constraint firstItem="jch-aB-M0U" firstAttribute="top" secondItem="xg3-Mn-mSG" secondAttribute="bottom" constant="119" id="KUE-Zs-O0I"/>
+                            <constraint firstItem="wTg-Va-FRI" firstAttribute="trailing" secondItem="idD-H8-9vj" secondAttribute="trailingMargin" id="Th2-tD-r2e"/>
+                            <constraint firstItem="xg3-Mn-mSG" firstAttribute="top" secondItem="wTg-Va-FRI" secondAttribute="bottom" constant="50" id="eRI-Z9-P30"/>
+                            <constraint firstItem="wTg-Va-FRI" firstAttribute="leading" secondItem="idD-H8-9vj" secondAttribute="leadingMargin" id="hHq-tx-eHc"/>
+                            <constraint firstItem="xg3-Mn-mSG" firstAttribute="centerX" secondItem="idD-H8-9vj" secondAttribute="centerX" id="rRw-Ls-3fo"/>
+                        </constraints>
                     </view>
                     <connections>
                         <outlet property="imageView2" destination="wTg-Va-FRI" id="AwP-ML-TSO"/>
