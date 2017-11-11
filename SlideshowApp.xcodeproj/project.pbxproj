@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BA0A1EBD1F9F694B00029561 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA0A1EBC1F9F694B00029561 /* ResultViewController.swift */; };
+		BA20E9CD1FA42EDF00150C6D /* IMG_0504.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA20E9CA1FA42EDF00150C6D /* IMG_0504.jpg */; };
+		BA20E9CE1FA42EDF00150C6D /* IMG_0508.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA20E9CB1FA42EDF00150C6D /* IMG_0508.jpg */; };
+		BA20E9CF1FA42EDF00150C6D /* IMG_0517.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA20E9CC1FA42EDF00150C6D /* IMG_0517.jpg */; };
+		BA8260891FA48572009A1526 /* ZoomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA8260881FA48572009A1526 /* ZoomViewController.swift */; };
 		BAF1EC1B1F9CA6DA00B38E1E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAF1EC1A1F9CA6DA00B38E1E /* AppDelegate.swift */; };
 		BAF1EC1D1F9CA6DA00B38E1E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAF1EC1C1F9CA6DA00B38E1E /* ViewController.swift */; };
 		BAF1EC201F9CA6DA00B38E1E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAF1EC1E1F9CA6DA00B38E1E /* Main.storyboard */; };
@@ -15,6 +20,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BA0A1EBC1F9F694B00029561 /* ResultViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
+		BA20E9CA1FA42EDF00150C6D /* IMG_0504.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0504.jpg; sourceTree = "<group>"; };
+		BA20E9CB1FA42EDF00150C6D /* IMG_0508.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0508.jpg; sourceTree = "<group>"; };
+		BA20E9CC1FA42EDF00150C6D /* IMG_0517.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0517.jpg; sourceTree = "<group>"; };
+		BA8260881FA48572009A1526 /* ZoomViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZoomViewController.swift; sourceTree = "<group>"; };
 		BAF1EC171F9CA6DA00B38E1E /* SlideshowApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SlideshowApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAF1EC1A1F9CA6DA00B38E1E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BAF1EC1C1F9CA6DA00B38E1E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -35,6 +45,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BA20E9C91FA42EDF00150C6D /* test写真 */ = {
+			isa = PBXGroup;
+			children = (
+				BA20E9CA1FA42EDF00150C6D /* IMG_0504.jpg */,
+				BA20E9CB1FA42EDF00150C6D /* IMG_0508.jpg */,
+				BA20E9CC1FA42EDF00150C6D /* IMG_0517.jpg */,
+			);
+			path = "test写真";
+			sourceTree = "<group>";
+		};
 		BAF1EC0E1F9CA6DA00B38E1E = {
 			isa = PBXGroup;
 			children = (
@@ -57,6 +77,9 @@
 				BAF1EC1A1F9CA6DA00B38E1E /* AppDelegate.swift */,
 				BAF1EC1C1F9CA6DA00B38E1E /* ViewController.swift */,
 				BAF1EC1E1F9CA6DA00B38E1E /* Main.storyboard */,
+				BA8260881FA48572009A1526 /* ZoomViewController.swift */,
+				BA0A1EBC1F9F694B00029561 /* ResultViewController.swift */,
+				BA20E9C91FA42EDF00150C6D /* test写真 */,
 				BAF1EC211F9CA6DA00B38E1E /* Assets.xcassets */,
 				BAF1EC231F9CA6DA00B38E1E /* LaunchScreen.storyboard */,
 				BAF1EC261F9CA6DA00B38E1E /* Info.plist */,
@@ -123,8 +146,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA20E9CD1FA42EDF00150C6D /* IMG_0504.jpg in Resources */,
+				BA20E9CE1FA42EDF00150C6D /* IMG_0508.jpg in Resources */,
 				BAF1EC251F9CA6DA00B38E1E /* LaunchScreen.storyboard in Resources */,
 				BAF1EC221F9CA6DA00B38E1E /* Assets.xcassets in Resources */,
+				BA20E9CF1FA42EDF00150C6D /* IMG_0517.jpg in Resources */,
 				BAF1EC201F9CA6DA00B38E1E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,6 +164,8 @@
 			files = (
 				BAF1EC1D1F9CA6DA00B38E1E /* ViewController.swift in Sources */,
 				BAF1EC1B1F9CA6DA00B38E1E /* AppDelegate.swift in Sources */,
+				BA0A1EBD1F9F694B00029561 /* ResultViewController.swift in Sources */,
+				BA8260891FA48572009A1526 /* ZoomViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,6 +327,7 @@
 				BAF1EC2B1F9CA6DA00B38E1E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
